@@ -18,7 +18,6 @@ from .models import UserCourseProgress  # Добавьте эту строку
 from django.contrib.auth import logout
 from django.views.decorators.http import require_POST
 from django.db.models import Count, Case, When, IntegerField, Q
-from django.contrib.postgres.aggregates import ArrayAgg
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from django.conf import settings
