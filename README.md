@@ -33,7 +33,7 @@ Online Courses is a lightweight yet powerful platform designed to simplify onlin
 - **Django Crispy Forms** - Enhanced form rendering
 - **Crispy Bootstrap5** - Bootstrap 5 template pack
 - **NumPy** - For future analytics features
-
+scikit-learn
 ## 📁 Project Structure
 ```
 onlinecourses/
@@ -64,7 +64,7 @@ onlinecourses/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Nurmuhammedcoder/onlinecourses.git
+git clone https://github.com/Nurmukhammedcoder/onlinecourses.git
 cd onlinecourses
 ```
 
@@ -167,10 +167,11 @@ The use of AI helped ensure:
 Create `requirements.txt`:
 ```
 Django==5.2
-django-crispy-forms==2.1
-crispy-bootstrap5==2.0.0
+django-crispy-forms>=2.4
+crispy-bootstrap5>=2024.1
 numpy>=1.24.0
 Pillow>=10.0.0
+scikit-learn
 ```
 
 ## 🗺️ Future Roadmap
@@ -266,7 +267,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Having issues? Feel free to:
 - Open an issue on GitHub
-- Contact me via email
+- Contact me with email
 - Check Django documentation
 
 ---
